@@ -6,7 +6,7 @@ RUN sudo apt-get update \
     gdb \
     g++ \
     python3 \
-    pip3 \
+    pip \
     openjdk-17-jdk \
     wget
 
