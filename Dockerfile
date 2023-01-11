@@ -8,7 +8,8 @@ RUN sudo apt-get update \
     python3 \
     pip \
     openjdk-17-jdk \
-    wget
+    wget \
+    sudo apt-get clean
 
 RUN code-server --install-extension redhat.java \
     && code-server --install-extension vscjava.vscode-maven \
