@@ -9,7 +9,7 @@ RUN sudo apt-get update \
     pip \
     openjdk-17-jdk \
     wget \
-    sudo apt-get clean
+    && sudo apt-get clean
 
 RUN code-server --install-extension redhat.java \
     && code-server --install-extension vscjava.vscode-maven \
