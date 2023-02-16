@@ -23,7 +23,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
           push: true
-          tags: hanplus/candjava-code-server:4.9.1
+          tags: hanplus/candjava-code-server:4.10.0
           
           
     - name: Build and push
